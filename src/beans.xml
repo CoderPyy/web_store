@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="CategoryService" class="com.yyp.service.impl.CategoryServiceImpl"/>
+	<bean id="ProductService" class="com.yyp.service.impl.ProductServiceImpl"/>
+	<bean id="UserService" class="com.yyp.service.impl.UserServiceImpl"/>
+	<bean id="OrderService" class="com.yyp.service.impl.OrderServiceImpl"/>
+	<bean id="AdminUserService" class="com.yyp.service.impl.AdminUserServiceImpl"/>
+	
+
+	<bean id="ProductDao" class="com.yyp.dao.impl.ProductDaoImpl"/>
+	<bean id="UserDao" class="com.yyp.dao.impl.UserDaoImpl"/>
+	<bean id="CategoryDao" class="com.yyp.dao.impl.CategoryDaoImpl"/>
+	<bean id="OrderDao" class="com.yyp.dao.impl.OrderDaoImpl"/>
+	<bean id="AdminUserDao" class="com.yyp.dao.impl.AdminUserDaoImpl"/>
+</beans>
